@@ -1,4 +1,4 @@
-## Tuya webrtc sample
+## Tuya webrtc demo
 
 
 English Version：[English](README.md)
@@ -15,6 +15,7 @@ English Version：[English](README.md)
 2.mqtt登陆、订阅、消息发送和接收等。
 
 3.app通过webrtc观看ipc视频的具体流程。
+
 
 ## 文档
 
