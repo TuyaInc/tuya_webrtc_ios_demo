@@ -42,24 +42,24 @@ English Version：[English](README.md)
 
 6. demo的主要流程
 
-  6.1 获取token：
+    6.1 获取token：
       - (BOOL)getTokenWithClientId:(NSString*)clientId secret:(NSString*)secret  code:(NSString*)code 
       接口会返回比较重要的信息入accessToken 、 uid 等等。
       
-  6.2 获取mqtt相关信息：
+    6.2 获取mqtt相关信息：
       -(BOOL)getMQTTConfig:(NSString*)clientId secret:(NSString*)secret access_token:(NSString*)access_token 
       返回的信息主要用于登录mqtt服务器。主要包含服务器地址、端口、用户名和密码等信息。
       
-  6.3 获取设备webrtc相关配置：
+    6.3 获取设备webrtc相关配置：
       -(BOOL)getRtcConfig:(NSString*)clientId secret:(NSString*)secret access_token:(NSString*)access_token deviceid:(NSString*)did。
       
-  6.4 连接mqtt服务器：
+    6.4 连接mqtt服务器：
   
-  6.5 mqtt连接成功之后订阅相应的topic，topic的定义参见demo。
+    6.5 mqtt连接成功之后订阅相应的topic，topic的定义参见demo。
   
-  6.6 订阅成功之后本地开启peerconnection，然后就可以通过mqtt进行sdp交互工作。
+    6.6 订阅成功之后本地开启peerconnection，然后就可以通过mqtt进行sdp交互工作。
   
-  6.7 交互成功之后就可以看到摄像头的视频。
+    6.7 交互成功之后就可以看到摄像头的视频。
 
 ## 文档
 
