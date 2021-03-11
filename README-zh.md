@@ -41,6 +41,7 @@ English Version：[English](README.md)
 5. 修改以上配置之后，就可以运行demo进行debug。    
 
 6. demo的主要流程
+
   6.1 获取token：
       - (BOOL)getTokenWithClientId:(NSString*)clientId secret:(NSString*)secret  code:(NSString*)code 
       接口会返回比较重要的信息入accessToken 、 uid 等等。
